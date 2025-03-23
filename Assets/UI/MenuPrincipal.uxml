@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=0b5b11510c82d413f9e81f686a2e19b9&amp;type=3#MenuPrincipal" />
+    <engine:VisualElement name="Menu" class="menu" style="flex-grow: 1; display: flex;">
+        <engine:VisualElement name="ContenedorTitulo" class="contenedores contenedortitulo" style="flex-grow: 1;">
+            <engine:Label text="Tarea Unity" name="TituloMenu" class="titulo" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ContenedorBotones" class="contenedores contenedorbotones" style="flex-grow: 1;">
+            <engine:Button text="Jugar" name="BotonJugar" class="botones" />
+            <engine:Button text="Ayuda" name="BotonAyuda" class="botones" />
+            <engine:Button text="Créditos" name="BotonCreditos" class="botones" />
+            <engine:Label text="What is Lorem Ipsum?&#10;&#10;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages..." name="textoAyuda" class="textoayuda" style="display: none;" />
+            <engine:Button text="Button" name="SalidaAyuda" class="salidaayuda" style="display: none;" />
+        </engine:VisualElement>
+        <engine:Label text="Luis David Pozos Tamez (A01800657)" name="Alumno" style="font-size: 40px; -unity-text-align: middle-right; color: rgb(255, 254, 254); -unity-font-style: italic; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=5b8af03e6e0c642a7acb7b07150f6ea3&amp;type=3#NotInter-Regular&quot;); margin-bottom: 35px;" />
+    </engine:VisualElement>
+</engine:UXML>

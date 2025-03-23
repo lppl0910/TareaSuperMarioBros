@@ -1,0 +1,84 @@
+.menu {
+    width: 80%;
+    align-self: center;
+}
+
+.contenedortitulo {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    height: 8%;
+}
+
+.contenedorbotones {
+    height: 65%;
+    margin-bottom: 0;
+    width: 70%;
+    align-self: center;
+    justify-content: center;
+}
+
+.contenedores {
+    background-color: rgba(0, 0, 0, 0.39);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.botones {
+    background-image: url("project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&guid=d3dd507249881854fbaa9d44a29f0d89&type=3#7");
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 33% 200px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    font-size: 60px;
+    color: rgb(255, 254, 254);
+    -unity-font-style: bold;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    display: flex;
+}
+
+.botones:hover {
+    scale: 1.15 1.15;
+}
+
+.titulo {
+    font-size: 100px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    color: rgb(255, 254, 254);
+}
+
+.textoayuda {
+    white-space: normal;
+    -unity-text-align: upper-center;
+    font-size: 40px;
+    color: rgb(255, 254, 254);
+}
+
+.salidaayuda {
+    background-image: url("project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/gold/CLOSE-1.png?fileID=2800000&guid=c0b6c38e965c69c4baaec76c33e68cf3&type=3#CLOSE-1");
+    background-size: 100px 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(27, 27, 27, 0);
+    right: auto;
+    top: -600px;
+    left: 950px;
+    width: 50px;
+}
+
+.salidaayuda:hover {
+    scale: 1.15 1.15;
+}
+
+.contenedorcreditos {
+}

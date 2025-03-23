@@ -15,7 +15,7 @@ public class CambiaAnimacion : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         animator.SetFloat("Velocidad", Mathf.Abs(rb.linearVelocityX));
         // Voltear al personaje según la dirección en la cual se mueva usando el sprite renderer
